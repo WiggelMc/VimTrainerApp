@@ -1,1 +1,1 @@
-This Repository host the VimTrainer App
+# VimTrainer App
