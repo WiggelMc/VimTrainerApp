@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="icon" href="./favicon-dark.png" type="image/svg+xml" id="favicon">
     <script type="text/javascript" src="./generated/main.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
 </head>
 <body>
 </body>
 <script>
-    const app = Elm.Main.init()
+    const app = Elm.Main.init({flags: getFlags()})
+    registerPorts(app)
 </script>
 </html>
