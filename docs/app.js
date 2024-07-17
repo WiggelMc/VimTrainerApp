@@ -5,9 +5,9 @@ const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)")
 const changeFavicon = () => {
     if (favicon != null) {
         if (isDarkMode.matches) {
-            favicon.href = "./favicon-dark.png"
+            favicon.href = "./assets/favicon-dark.png"
         } else {
-            favicon.href = "./favicon-light.png"
+            favicon.href = "./assets/favicon-light.png"
         }
     }
 }
